@@ -7,50 +7,78 @@
     <title>Портфоліо</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!--Хедер-->
     <header>
       <nav>
-        <a class="logo" href="./index.html"><span class="logo-web">Web</span>Studio </a>
+        <a class="logo" href="./index.html"
+          ><span class="logo-web">Web</span>Studio
+        </a>
         <ul class="site-nav list">
           <li><a href="./index.html" class="link">Студія</a></li>
-          <li><a href="./portfolio.html" class="link current"> Портфоліо</a></li>
+          <li>
+            <a href="./portfolio.html" class="link current"> Портфоліо</a>
+          </li>
           <li><a href="" class="link"> Контакти</a></li>
         </ul>
       </nav>
 
       <ul class="auth-nav list">
-        <li><a class="link-head" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link-head" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a class="link-head" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="link-head" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
       <!--Порфоліо-->
       <section>
-        <h1 hidden>Портфоліо</h1>
+        <h1 class="visually-hidden">Портфоліо</h1>
         <ul class="list">
           <li><button class="button secondary" type="button">Все</button></li>
-          <li><button class="button secondary" type="button">Веб-сайти</button></li>
-          <li><button class="button secondary" type="button">Додатки</button></li>
-          <li><button class="button secondary" type="button">Дизайн</button></li>
-          <li><button class="button secondary" type="button">Маркетинг</button></li>
+          <li>
+            <button class="button secondary" type="button">Веб-сайти</button>
+          </li>
+          <li>
+            <button class="button secondary" type="button">Додатки</button>
+          </li>
+          <li>
+            <button class="button secondary" type="button">Дизайн</button>
+          </li>
+          <li>
+            <button class="button secondary" type="button">Маркетинг</button>
+          </li>
         </ul>
         <ul class="choice list">
-          <li>
+          <li class="card-border">
             <a class="card" href=""
-              ><img src="./images/portfolio_img/port1.jpg" alt="Лептоп" width="370" height="294" />
+              ><img
+                src="./images/portfolio_img/port1.jpg"
+                alt="Лептоп"
+                width="370"
+                height="294"
+              />
               <h2 class="choice-title">Технокряк</h2>
               <p class="choice-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="card-border">
             <a class="card" href=""
               ><img
                 src="./images/portfolio_img/port2.jpg"
@@ -62,7 +90,7 @@
               <p class="choice-text">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="card-border">
             <a class="card" href=""
               ><img
                 src="./images/portfolio_img/port3.jpg"
@@ -74,7 +102,7 @@
               <p class="choice-text">Додаток</p>
             </a>
           </li>
-          <li>
+          <li class="card-border">
             <a class="card" href=""
               ><img
                 src="./images/portfolio_img/port4.jpg"
@@ -86,7 +114,7 @@
               <p class="choice-text">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="card-border">
             <a class="card" href=""
               ><img
                 src="./images/portfolio_img/port5.jpg"
@@ -98,7 +126,7 @@
               <p class="choice-text">Додаток</p>
             </a>
           </li>
-          <li>
+          <li class="card-border">
             <a class="card" href=""
               ><img
                 src="./images/portfolio_img/port6.jpg"
@@ -110,23 +138,38 @@
               <p class="choice-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="card-border">
             <a class="card" href=""
-              ><img src="./images/portfolio_img/port7.jpg" alt="Журнал" width="370" height="294" />
+              ><img
+                src="./images/portfolio_img/port7.jpg"
+                alt="Журнал"
+                width="370"
+                height="294"
+              />
               <h2 class="choice-title">Видання Limited Edition</h2>
               <p class="choice-text">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="card-border">
             <a class="card" href=""
-              ><img src="./images/portfolio_img/port8.jpg" alt="Бірка" width="370" height="294" />
+              ><img
+                src="./images/portfolio_img/port8.jpg"
+                alt="Бірка"
+                width="370"
+                height="294"
+              />
               <h2 class="choice-title">Проект LAB</h2>
               <p class="choice-text">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="card-border">
             <a class="card" href=""
-              ><img src="./images/portfolio_img/port9.jpg" alt="Ноутбук" width="370" height="294" />
+              ><img
+                src="./images/portfolio_img/port9.jpg"
+                alt="Ноутбук"
+                width="370"
+                height="294"
+              />
               <h2 class="choice-title">Growing Business</h2>
               <p class="choice-text">Додаток</p>
             </a>
@@ -135,10 +178,12 @@
       </section>
     </main>
     <!--Футер-->
-    <footer>
-      <a class="logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
+    <footer class="footer">
+      <a class="logo" href="./index.html"
+        ><span class="logo-web">Web</span>Studio</a
+      >
 
-      <address>
+      <address class="address">
         <ul class="list">
           <li>
             <a
@@ -149,8 +194,14 @@
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a class="link-head" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="link-head" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="link-head" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link-head" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
